@@ -69,6 +69,6 @@ if st.button("Submit",type="primary"):
     print(scaled_data)
     pred = model.predict(scaled_data)[0]
     if pred==1:
-        st.warning("Churned(Cancel Survice)")
+        st.warning("Churned(Cancel Service)")
     else:
         st.success("Loyal Customer")
